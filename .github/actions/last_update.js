@@ -40,7 +40,6 @@ fs.readFile('main/data.json', (err, data) => {
   }
 
   archiveAll.finalize();
-  archiveAuto.finalize();
   archiveDomov.finalize();
 });
 
