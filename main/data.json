@@ -1,9 +1,404 @@
 {	"json_version":1,
-	"logos_zip_file_all": "logos.zip",
 	"logos_zip_file_domov": "logos_domov.zip",
 	"banks": [
-		
-		
-		
+		{
+			"id": 1,
+			"yeti_id": 10834,
+			"country_abbr": "CZ",
+			"name": "Česká spořitelna",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Olbrachtova 1929/62",
+				"zip": "14000",
+				"country_abbr": "CZ"
+			},
+			"logo": "csas.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.csas.cz/"}
+				]
+			}
+		},
+		{
+			"id": 2,
+			"yeti_id": 31904,
+			"country_abbr": "CZ",
+			"name": "Stavební spořitelna České Spořitelny",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Antala Staška 1292/32",
+				"zip": "14000",
+				"country_abbr": "CZ"
+			},
+			"logo": "sscs.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.burinka.cz/"}
+				]
+			}
+		},
+		{
+			"id": 3,
+			"yeti_id": 13395,
+			"country_abbr": "CZ",
+			"name": "Československá obchodní banka",
+			"company_address": {
+				"city": "Praha 5",
+				"street": "Radlická 333/150",
+				"zip": "15057",
+				"country_abbr": "CZ"
+			},
+			"logo": "csob.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.csob.cz/"}
+				]
+			}
+		},
+		{
+			"id": 4,
+			"yeti_id": 134394,
+			"country_abbr": "CZ",
+			"name": "ČSOB Hypoteční banka",
+			"company_address": {
+				"city": "Praha 5",
+				"street": "Radlická 333/150",
+				"zip": "15057",
+				"country_abbr": "CZ"
+			},
+			"logo": "csob_hyp.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.csobhypotecni.cz/"}
+				]
+			}
+		},
+		{
+			"id": 5,
+			"yeti_id": 846,
+			"country_abbr": "CZ",
+			"name": "Komerční banka",
+			"company_address": {
+				"city": "Praha 1",
+				"street": "Na Příkopě 969",
+				"zip": "11407",
+				"country_abbr": "CZ"
+			},
+			"logo": "kb.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.kb.cz/"}
+				]
+			}
+		},
+		{
+			"id": 6,
+			"yeti_id": 18715,
+			"country_abbr": "CZ",
+			"name": "Modrá pyramida stavební spořitelna",
+			"company_address": {
+				"city": "Praha 2",
+				"street": "Bělehradská 222/128",
+				"zip": "12021",
+				"country_abbr": "CZ"
+			},
+			"logo": "pyramida.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.kb.cz/cs/modra-pyramida"}
+				]
+			}
+		},
+		{
+			"id": 7,
+			"yeti_id": 276945,
+			"country_abbr": "CZ",
+			"name": "mBank",
+			"company_address": {
+				"city": "Praha 8",
+				"street": "Pernerova 691/42",
+				"zip": "18600",
+				"country_abbr": "CZ"
+			},
+			"logo": "mbank.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.mbank.cz/"}
+				]
+			}
+		},
+		{
+			"id": 8,
+			"yeti_id": 233299,
+			"country_abbr": "CZ",
+			"name": "Oberbank",
+			"company_address": {
+				"city": "Praha 2",
+				"street": "I. P. Pavlova 1789/5",
+				"zip": "12000",
+				"country_abbr": "CZ"
+			},
+			"logo": "oberbank.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.oberbank.cz/"}
+				]
+			}
+		},
+		{
+			"id": 9,
+			"yeti_id": 254,
+			"country_abbr": "CZ",
+			"name": "Raiffeisenbank",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Hvězdova 1716/2b",
+				"zip": "14078",
+				"country_abbr": "CZ"
+			},
+			"logo": "rb.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.rb.cz/"}
+				]
+			}
+		},
+		{
+			"id": 10,
+			"yeti_id": 1095,
+			"country_abbr": "CZ",
+			"name": "Raiffeisen stavební spořitelna",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Hvězdova 1716/2b",
+				"zip": "14078",
+				"country_abbr": "CZ"
+			},
+			"logo": "rb_stavebni.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.rsts.cz/"}
+				]
+			}
+		},
+		{
+			"id": 11,
+			"yeti_id": 189892,
+			"country_abbr": "CZ",
+			"name": "UniCredit Bank",
+			"company_address": {
+				"city": "Praha 4 - Michle",
+				"street": "Želetavská 1525/1",
+				"zip": "14092",
+				"country_abbr": "CZ"
+			},
+			"logo": "unicredit.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.unicreditbank.cz/"}
+				]
+			}
+		},
+		{
+			"id": 12,
+			"yeti_id": 1190017,
+			"country_abbr": "SK",
+			"name": "BKS Bank",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Pribinova 4",
+				"zip": "81109",
+				"country_abbr": "SK"
+			},
+			"logo": "bks.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.bksbank.sk/"}
+				]
+			}
+		},
+		{
+			"id": 13,
+			"yeti_id": 269191,
+			"country_abbr": "SK",
+			"name": "Československá obchodná banka",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Michalská 18",
+				"zip": "81563",
+				"country_abbr": "SK"
+			},
+			"logo": "csob.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.csob.sk/"}
+				]
+			}
+		},
+		{
+			"id": 14,
+			"yeti_id": 130570,
+			"country_abbr": "SK",
+			"name": "mBank",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Pribinova 10",
+				"zip": "81109",
+				"country_abbr": "SK"
+			},
+			"logo": "mbank.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.mbank.sk/"}
+				]
+			}
+		},
+		{
+			"id": 15,
+			"yeti_id": 269201,
+			"country_abbr": "SK",
+			"name": "Slovenská sporiteľňa",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Tomášikova 48",
+				"zip": "83237",
+				"country_abbr": "SK"
+			},
+			"logo": "slsp.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.slsp.sk/"}
+				]
+			}
+		},
+		{
+			"id": 16,
+			"yeti_id": 46509,
+			"country_abbr": "SK",
+			"name": "Tatra banka",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Hodžovo námestie 3",
+				"zip": "85005",
+				"country_abbr": "SK"
+			},
+			"logo": "tatra.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.tatrabanka.sk/"}
+				]
+			}
+		},
+		{
+			"id": 17,
+			"yeti_id": 269192,
+			"country_abbr": "SK",
+			"name": "UniCredit Bank",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Šancova 1/A",
+				"zip": "81333",
+				"country_abbr": "SK"
+			},
+			"logo": "unicredit.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.unicreditbank.sk/"}
+				]
+			}
+		},
+		{
+			"id": 18,
+			"yeti_id": 269200,
+			"country_abbr": "SK",
+			"name": "Všeobecná úverová banka",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Mlynské nivy 1",
+				"zip": "82990",
+				"country_abbr": "SK"
+			},
+			"logo": "vub.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.vub.sk/"}
+				]
+			}
+		},
+		{
+			"id": 19,
+			"yeti_id": 333514,
+			"country_abbr": "SK",
+			"name": "365.bank",
+			"company_address": {
+				"city": "Bratislava",
+				"street": "Dvořákovo nábrežie 4",
+				"zip": "81102",
+				"country_abbr": "SK"
+			},
+			"logo": "365.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://365.bank/"}
+				]
+			}
+		}
 	]
 }
