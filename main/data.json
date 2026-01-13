@@ -399,6 +399,174 @@
 					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://365.bank/"}
 				]
 			}
+		},
+		{
+			"id": 20,
+			"yeti_id": 117370,
+			"country_abbr": "CZ",
+			"name": "MONETA Money Bank",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Vyskočilova 1442/1b",
+				"zip": "14000",
+				"country_abbr": "CZ"
+			},
+			"logo": "moneta.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.moneta.cz/"}
+				]
+			}
+		},
+		{
+			"id": 21,
+			"yeti_id": 55414,
+			"country_abbr": "CZ",
+			"name": "MONETA Stavební Spořitelna",
+			"company_address": {
+				"city": "Praha 4",
+				"street": "Vyskočilova 1442/1b",
+				"zip": "14000",
+				"country_abbr": "CZ"
+			},
+			"logo": "moneta.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.moneta.cz/moneta-stavebni-sporitelna"}
+				]
+			}
+		},
+		{
+			"id": 22,
+			"yeti_id": 445430,
+			"country_abbr": "CZ",
+			"name": "Fio banka",
+			"company_address": {
+				"city": "Praha 1",
+				"street": "Na Florenci 2139/2",
+				"zip": "11000",
+				"country_abbr": "CZ"
+			},
+			"logo": "fio.png",
+			"is_name_in_logo": false,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.fio.cz/"}
+				]
+			}
+		},
+		{
+			"id": 23,
+			"yeti_id": 20716,
+			"country_abbr": "CZ",
+			"name": "ČSOB Stavební spořitelna",
+			"company_address": {
+				"city": "Praha 5",
+				"street": "Radlická 333/150",
+				"zip": "15000",
+				"country_abbr": "CZ"
+			},
+			"logo": "csob_stavebni.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.csobstavebni.cz/"}
+				]
+			}
+		},
+		{
+			"id": 24,
+			"yeti_id": 1534988,
+			"country_abbr": "CZ",
+			"name": "Partners Banka",
+			"company_address": {
+				"city": "Praha 4 - Chodov",
+				"street": "Türkova 2319/5b",
+				"zip": "14900",
+				"country_abbr": "CZ"
+			},
+			"logo": "partners.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.partnersbanka.cz/"}
+				]
+			}
+		},
+		{
+			"id": 25,
+			"yeti_id": 59648,
+			"country_abbr": "CZ",
+			"name": "J&T BANKA",
+			"company_address": {
+				"city": "Praha 8",
+				"street": "Sokolovská 700/113a",
+				"zip": "18600",
+				"country_abbr": "CZ"
+			},
+			"logo": "jt.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.jtbank.cz/"}
+				]
+			}
+		},
+		{
+			"id": 26,
+			"yeti_id": 445515,
+			"country_abbr": "CZ",
+			"name": "Air Bank",
+			"company_address": {
+				"city": "Praha 6",
+				"street": "Evropská 2690/17",
+				"zip": "16000",
+				"country_abbr": "CZ"
+			},
+			"logo": "air.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.airbank.cz/"}
+				]
+			}
+		},
+		{
+			"id": 27,
+			"yeti_id": 1503817,
+			"country_abbr": "CZ",
+			"name": "Simplea pojišťovna",
+			"company_address": {
+				"city": "Praha 4 - Chodov",
+				"street": "Türkova 2319/5b",
+				"zip": "14900",
+				"country_abbr": "CZ"
+			},
+			"logo": "simplea.png",
+			"is_name_in_logo": true,
+			"app_domov": {
+				"use_in_app": true,
+				"is_visible": true,
+				"links":[
+					{"id": 1, "type": "MAIN", "subtype": "WEB", "value": "https://www.simplea.cz/"}
+				]
+			}
 		}
 	]
 } 
